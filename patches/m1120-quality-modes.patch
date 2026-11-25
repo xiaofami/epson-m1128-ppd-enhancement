@@ -1,0 +1,69 @@
+--- a/Epson-M1120_Series-epson-escpr-en.ppd
++++ b/Epson-M1120-M1128-enhanced.ppd
+@@ -1,4 +1,8 @@
+ *PPD-Adobe: "4.3"
++*% Modified PPD for EPSON M1120 / M1128: adds DRAFT quality mode.
++*% Based on the GPL-licensed Epson ESC/P-R driver PPD (Copyright Seiko Epson Corporation).
++*% Modifications Copyright (C) 2026 Hy4 flash, GPL-2.0-or-later.
++*% Not affiliated with or endorsed by Seiko Epson Corporation.
+ *% Adobe Systems PostScript(R) Printer Description File
+ *% Copyright 1987-1996 Adobe Systems Incorporated.
+ *% All Rights Reserved.
+@@ -12,7 +16,7 @@
+ *PSVersion: "(3010.000) 550"
+ *ModelName: "EPSON M1120 Series"
+ *ShortNickName: "EPSON M1120 Series"
+-*NickName: "EPSON M1120 Series , Epson Inkjet Printer Driver (ESC/P-R) for Linux"
++*NickName: "EPSON M1120/M1128 Series - Enhanced (Draft/Standard/High)"
+ *Manufacturer: "Epson"
+ *LanguageLevel: "3"
+ *ColorDevice: True
+@@ -370,6 +374,7 @@
+ *DefaultOutputMode: NORMAL
+ *OutputMode HIGH/High: "<</HWResolution[720 720]/cupsCompression 2>>setpagedevice"
+ *OutputMode NORMAL/Standard: "<</HWResolution[360 360]/cupsCompression 1>>setpagedevice"
++*OutputMode DRAFT/Draft (fast): "<</HWResolution[360 360]/cupsCompression 0>>setpagedevice"
+ *nl.Translation OutputMode/Afdrukkwaliteit: ""
+ *fr.Translation OutputMode/Qualité : ""
+ *de.Translation OutputMode/Qualität: ""
+@@ -384,28 +389,40 @@
+ *ru.Translation OutputMode/Качество печати: ""
+ *nl.OutputMode HIGH/Hoog: ""
+ *nl.OutputMode NORMAL/Standaard: ""
++*nl.OutputMode DRAFT/Concept (snel): ""
+ *fr.OutputMode HIGH/Supérieure: ""
+ *fr.OutputMode NORMAL/Standard: ""
++*fr.OutputMode DRAFT/Brouillon (rapide): ""
+ *de.OutputMode HIGH/Stark: ""
+ *de.OutputMode NORMAL/Standard: ""
++*de.OutputMode DRAFT/Entwurf (schnell): ""
+ *it.OutputMode HIGH/Alto: ""
+ *it.OutputMode NORMAL/Standard: ""
++*it.OutputMode DRAFT/Bozza (veloce): ""
+ *ja.OutputMode HIGH/きれい: ""
+ *ja.OutputMode NORMAL/標準: ""
++*ja.OutputMode DRAFT/下書き (高速): ""
+ *pt.OutputMode HIGH/Alto: ""
+ *pt.OutputMode NORMAL/Padrão: ""
++*pt.OutputMode DRAFT/Rascunho (rápido): ""
+ *pt_PT.OutputMode HIGH/Alto: ""
+ *pt_PT.OutputMode NORMAL/Normal: ""
++*pt_PT.OutputMode DRAFT/Rascunho (rápido): ""
+ *es.OutputMode HIGH/Alta: ""
+ *es.OutputMode NORMAL/Estándar: ""
++*es.OutputMode DRAFT/Borrador (rápido): ""
+ *ko.OutputMode HIGH/높게: ""
+ *ko.OutputMode NORMAL/일반: ""
++*ko.OutputMode DRAFT/초안 (빠름): ""
+ *zh_TW.OutputMode HIGH/高: ""
+ *zh_TW.OutputMode NORMAL/標準: ""
++*zh_TW.OutputMode DRAFT/草稿 (快速): ""
+ *zh_CN.OutputMode HIGH/高: ""
+ *zh_CN.OutputMode NORMAL/标准: ""
++*zh_CN.OutputMode DRAFT/快速: ""
+ *ru.OutputMode HIGH/Высокий: ""
+ *ru.OutputMode NORMAL/Стандартный: ""
++*ru.OutputMode DRAFT/Черновик (быстро): ""
+ *CloseUI: *OutputMode
+ 
+ 

@@ -1,0 +1,13 @@
+上游作者：
+  Seiko Epson Corporation <linux-printer@epson.jp>
+  （原始 PPD 与 epson-inkjet-printer-escpr 驱动的版权所有者）
+
+本修改作者：
+  Hy4 flash
+
+修改内容：
+  - 新增 OutputMode DRAFT 档位（三档对齐 Windows 驱动）
+  - 补全 12 种语言的 DRAFT 翻译
+  - 标注增强版 NickName 与修改声明
+
+许可证：GPL-2.0-or-later
