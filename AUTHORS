@@ -3,7 +3,7 @@
   （原始 PPD 与 epson-inkjet-printer-escpr 驱动的版权所有者）
 
 本修改作者：
-  Hy4 flash
+  Hy4 flash（不主张版权 / no copyright claimed）
 
 修改内容：
   - 新增 OutputMode DRAFT 档位（三档对齐 Windows 驱动）

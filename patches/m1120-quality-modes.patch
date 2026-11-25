@@ -4,7 +4,7 @@
  *PPD-Adobe: "4.3"
 +*% Modified PPD for EPSON M1120 / M1128: adds DRAFT quality mode.
 +*% Based on the GPL-licensed Epson ESC/P-R driver PPD (Copyright Seiko Epson Corporation).
-+*% Modifications Copyright (C) 2026 Hy4 flash, GPL-2.0-or-later.
++*% Modifications by Hy4 flash; no copyright claimed over them.
 +*% Not affiliated with or endorsed by Seiko Epson Corporation.
  *% Adobe Systems PostScript(R) Printer Description File
  *% Copyright 1987-1996 Adobe Systems Incorporated.

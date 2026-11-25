@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: GPL-2.0-or-later
-# Copyright (C) 2026 Hy4 flash
+# Modifications by Hy4 flash (no copyright claimed)
 #
 # 基于爱普生官方 GPL 驱动 epson-inkjet-printer-escpr 的 PPD，生成
 # EPSON M1120 / M1128 三档打印质量增强版 PPD。
@@ -36,7 +36,7 @@ DRAFT_LABELS = {
 MOD_NOTICE = (
     '*% Modified PPD for EPSON M1120 / M1128: adds DRAFT quality mode.\n'
     '*% Based on the GPL-licensed Epson ESC/P-R driver PPD (Copyright Seiko Epson Corporation).\n'
-    '*% Modifications Copyright (C) 2026 Hy4 flash, GPL-2.0-or-later.\n'
+    '*% Modifications by Hy4 flash; no copyright claimed over them.\n'
     '*% Not affiliated with or endorsed by Seiko Epson Corporation.\n'
 )
 

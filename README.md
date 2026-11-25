@@ -95,8 +95,9 @@ lpoptions -p <队列名> -l | grep OutputMode
 
 ### 许可证与声明
 
-- 本项目修改以 **GPL-2.0-or-later** 发布，与上游爱普生驱动一致（见 `LICENSE`）。
-- 上游 PPD 版权归 **Seiko Epson Corporation**；本项目的修改部分版权归 **Hy4 flash**。
+- 本项目整体以 **GPL-2.0-or-later** 发布，与上游爱普生驱动一致（见 `LICENSE`）。
+- 上游 PPD 版权归 **Seiko Epson Corporation**；本项目的修改部分由 **Hy4 flash** 贡献，
+  作者不主张版权。
 - 本项目**不捆绑、不重新分发**任何爱普生二进制文件（libescpr.so、filter 等）。
   用户需自行从发行版安装官方驱动。
 - 本项目为第三方修改，**与 Seiko Epson Corporation 无关联、未获其背书**；
@@ -185,8 +186,9 @@ Expect a "PASS" result and three quality modes. See `tests/test-plan.md` for det
 
 ### License and disclaimer
 
-- Released under **GPL-2.0-or-later**, matching the upstream Epson driver (`LICENSE`).
-- Upstream PPD copyright: **Seiko Epson Corporation**. Modifications copyright: **Hy4 flash**.
+- Distributed under **GPL-2.0-or-later**, matching the upstream Epson driver (`LICENSE`).
+- Upstream PPD copyright: **Seiko Epson Corporation**. Modifications contributed by
+  **Hy4 flash**, who waives any copyright claim over them.
 - This project does **not** bundle or redistribute any Epson binaries (libescpr.so, filters, etc.).
 - This is a third-party modification, **not affiliated with or endorsed by Seiko Epson**.
   Do not use EPSON trademarks or logos to promote this patch.
